@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koyo.Geometry", "Koyo.Geometry\Koyo.Geometry.csproj", "{B7B8F5C8-16FA-4FC2-90A8-86B95A32CC59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koyo.Geometry.Tests", "Koyo.Geometry.Tests\Koyo.Geometry.Tests.csproj", "{BC37CAE9-4E09-44B1-801B-01B5F5C00A39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7B8F5C8-16FA-4FC2-90A8-86B95A32CC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B8F5C8-16FA-4FC2-90A8-86B95A32CC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B8F5C8-16FA-4FC2-90A8-86B95A32CC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B8F5C8-16FA-4FC2-90A8-86B95A32CC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC37CAE9-4E09-44B1-801B-01B5F5C00A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC37CAE9-4E09-44B1-801B-01B5F5C00A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC37CAE9-4E09-44B1-801B-01B5F5C00A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC37CAE9-4E09-44B1-801B-01B5F5C00A39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C284B04-02C1-4971-BFEA-39C6769D0616}
+	EndGlobalSection
+EndGlobal
