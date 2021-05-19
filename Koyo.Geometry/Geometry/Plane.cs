@@ -60,6 +60,10 @@ namespace JA.Geometry
         public float DistanceTo(Point point)
             => point.DistanceTo(this);
 
+        public float DistanceTo(Plane plane)
+            => (Vector*plane.Scalar-plane.Vector*Scalar).Length()
+                /Vector3.Dot(Vector, plane.Vector);        
+
         public Point Project(Point point)
         {
             float t = Vector3.Dot(Normal, point.Position)-Offset;
